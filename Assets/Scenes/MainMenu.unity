@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -678, y: -22}
+  m_AnchoredPosition: {x: -678, y: -171}
   m_SizeDelta: {x: 438.0446, y: 111.0963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88598847
@@ -280,7 +280,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -678, y: 406}
+  m_AnchoredPosition: {x: -678, y: 257}
   m_SizeDelta: {x: 438.0446, y: 111.0963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407538371
@@ -329,7 +329,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 761745019}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: Game
+        m_MethodName: LoadMissionListScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -753,7 +753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -678, y: 192}
+  m_AnchoredPosition: {x: -678, y: 43}
   m_SizeDelta: {x: 438.0446, y: 111.0963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735664574
