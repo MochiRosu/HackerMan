@@ -4837,12 +4837,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8790531472846192817}
-  - component: {fileID: 562815655542175163}
+  - component: {fileID: 3285943774397370283}
   - component: {fileID: 5643545080815718164}
   - component: {fileID: 7617013106492603358}
   - component: {fileID: 6168756778504169174}
   m_Layer: 0
-  m_Name: Entrance
+  m_Name: BankNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4864,7 +4864,7 @@ Transform:
   - {fileID: 5872773936131345901}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &562815655542175163
+--- !u!114 &3285943774397370283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4873,14 +4873,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8265773689750149643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a013b5b61b515e84eb62a03214f05e94, type: 3}
+  m_Script: {fileID: 11500000, guid: 1722388681c2fc44a84a2fadcfb2276d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 00
   Name: Blank
   Description: 
   NodesNTM: []
-  baseLineRenderer: {fileID: 6168756778504169174}
+  baseLineRenderer: {fileID: 0}
   line: []
 --- !u!33 &5643545080815718164
 MeshFilter:
