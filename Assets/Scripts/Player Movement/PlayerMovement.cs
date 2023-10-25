@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         instance = this;
+        transform.position = currentNode.transform.position;
     }
 
     // Update is called once per frame
@@ -35,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
                     if(c.ID.ToLower() == split[1].ToLower())
                     {
                         currentNode = c;
+                        transform.position = currentNode.transform.position;
                         break;
                     }
 
