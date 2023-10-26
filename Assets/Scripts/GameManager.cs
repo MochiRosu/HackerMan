@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
 
     public int playerActionsLeft = 2;
 
+    public int Money = 0;
+
+
     public static GameManager instance;
 
     // Start is called before the first frame update

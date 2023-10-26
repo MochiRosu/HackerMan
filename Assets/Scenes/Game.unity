@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00631087, g: 0.00631087, b: 0.00631087, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -307,7 +307,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562815655542175163, guid: 4caa48a9cb44650458a0f565273ffe2e, type: 3}
       propertyPath: line.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 562815655542175163, guid: 4caa48a9cb44650458a0f565273ffe2e, type: 3}
       propertyPath: baseLineRenderer
@@ -323,8 +323,12 @@ PrefabInstance:
       objectReference: {fileID: 1999699884}
     - target: {fileID: 562815655542175163, guid: 4caa48a9cb44650458a0f565273ffe2e, type: 3}
       propertyPath: NodesNTM.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 562815655542175163, guid: 4caa48a9cb44650458a0f565273ffe2e, type: 3}
+      propertyPath: NodesNTM.Array.data[0]
+      value: 
+      objectReference: {fileID: 1999699887}
     - target: {fileID: 562815655542175163, guid: 4caa48a9cb44650458a0f565273ffe2e, type: 3}
       propertyPath: NodesNTM.Array.data[1]
       value: 
@@ -431,6 +435,18 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 2147483648
       objectReference: {fileID: 0}
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 1457439475430595360, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -516,20 +532,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 452.5529
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 80.9405
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -701
+      value: 199
       objectReference: {fileID: 0}
     - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -470
+      value: 41.7
       objectReference: {fileID: 0}
     - target: {fileID: 6542253634468956474, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_Color.b
@@ -929,7 +961,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3285943774397370283, guid: fea377e99bfcb274fb6827b1cde696ee, type: 3}
       propertyPath: line.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3285943774397370283, guid: fea377e99bfcb274fb6827b1cde696ee, type: 3}
       propertyPath: baseLineRenderer
@@ -1149,7 +1181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4863566794018668115, guid: 2ed549b9d8e63cc42a394e67a4609747, type: 3}
       propertyPath: line.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4863566794018668115, guid: 2ed549b9d8e63cc42a394e67a4609747, type: 3}
       propertyPath: baseLineRenderer

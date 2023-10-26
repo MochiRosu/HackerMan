@@ -9,15 +9,5 @@ public class BankNode : INode
         Debug.Log("Bank Node");
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
