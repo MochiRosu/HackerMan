@@ -8,12 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public INode currentNode;
 
     public static PlayerMovement instance;
+    public TMP_Text description;
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
         transform.position = currentNode.transform.position;
+        description.text = currentNode.Description;
     }
 
     // Update is called once per frame
@@ -38,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
                         currentNode = c;
                         transform.position = currentNode.transform.position;
                         c.Particalse.Play();
+                        description.text = c.Description;
                         break;
                     }
 

@@ -287,7 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: f0
   Name: Entrance
-  Description: Start
+  Description: Interface leave Level
   NodesNTM: []
   IDTEXT: {fileID: 2809579358008556737}
   baseLineRenderer: {fileID: 6168756778504169174}
