@@ -15,13 +15,13 @@ public class PlayerMovement : MonoBehaviour
     {
         instance = this;
         transform.position = currentNode.transform.position;
-        description.text = currentNode.Description;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        description.text = currentNode.Description;
     }
 
     public void SelectCommand(string args)
@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
                         transform.position = currentNode.transform.position;
                         c.Particalse.Play();
                         description.text = c.Description;
+                        Camera.main.GetComponent<CameraShake>().Shake(1,1f);
                         break;
                     }
 

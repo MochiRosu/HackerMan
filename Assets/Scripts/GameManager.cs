@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     public int Money = 0;
 
-
+    public TMP_Text money;
     public static GameManager instance;
 
     // Start is called before the first frame update
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            Money = PlayerPrefs.GetInt("Money", 0);
         }else
         {
             Destroy(this);
@@ -39,6 +41,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        money.text = Money.ToString();
     }
+
+    private void OnDestroy()
+    {
+        PlayerPrefs.SetInt("Money", Money);
+        PlayerPrefs.Save();
+    }
+
+    
 }

@@ -11,6 +11,7 @@ public class INode : MonoBehaviour
     [SerializeField] public string Description;
     [SerializeField] public List<INode> NodesNTM = new();
 
+    [HideInInspector]public string Desc;
     [SerializeField] TMP_Text IDTEXT;
 
     public LineRenderer baseLineRenderer;
@@ -30,6 +31,7 @@ public class INode : MonoBehaviour
 
     public void Start()
     {
+        Desc = Description;
         foreach (var node in NodesNTM)
         {
             LineRenderer li = CopyComponent<LineRenderer>(baseLineRenderer, this.gameObject);
@@ -40,14 +42,25 @@ public class INode : MonoBehaviour
             line.Add(li);
         }
         //Destroy(baseLineRenderer);
-    
+        Start2();
         IDTEXT.text = ID.ToUpper();
+    }
+
+    public virtual void Update2()
+    {
+
+    }
+
+    public virtual void Start2()
+    {
+
     }
 
     public void Update()
     {
         IDTEXT.transform.LookAt(Camera.main.transform.position);
         IDTEXT.transform.localEulerAngles = new Vector3(180, 180, 180);
+        Update2();
     }
 
     T CopyComponent<T>(T original, GameObject destination) where T : Component
