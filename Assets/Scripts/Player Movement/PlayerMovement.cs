@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         switch(split[0].ToLower())
         {
             case "move":
+                
                 Debug.Log("PlayerTriedMoving");
                 foreach(INode c in currentNode.NodesNTM)
                 {
@@ -41,7 +42,8 @@ public class PlayerMovement : MonoBehaviour
                         transform.position = currentNode.transform.position;
                         c.Particalse.Play();
                         description.text = c.Description;
-                        Camera.main.GetComponent<CameraShake>().Shake(1,1f);
+                        Camera.main.GetComponent<CameraShake>().Shake(0.5f,1f);
+                        GameManager.instance.ActionTaken();
                         break;
                     }
 
@@ -49,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 break;
             case "interface":
                 currentNode.Interface();
+                GameManager.instance.ActionTaken();
                 break;
 
         }
