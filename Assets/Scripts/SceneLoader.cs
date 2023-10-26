@@ -5,15 +5,15 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadMission1Scene()
     {
-        SceneManager.LoadScene("Mission 1");
+        SceneManager.LoadScene("Mission1");
     }
     public void LoadMission2Scene()
     {
-        SceneManager.LoadScene("Mission 2");
+        SceneManager.LoadScene("Mission2");
     }
     public void LoadMission3Scene()
     {
-        SceneManager.LoadScene("Mission 3");
+        SceneManager.LoadScene("Mission3");
     }
 
     public void LoadMissionListScene()
