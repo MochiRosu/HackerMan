@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
                     {
                         currentNode = c;
                         transform.position = currentNode.transform.position;
+                        c.Particalse.Play();
                         break;
                     }
 

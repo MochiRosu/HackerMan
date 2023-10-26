@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -158,8 +158,10 @@ MonoBehaviour:
   Description: 
   NodesNTM:
   - {fileID: 1147067979}
+  IDTEXT: {fileID: 0}
   baseLineRenderer: {fileID: 537269039}
   line: []
+  Particalse: {fileID: 0}
 --- !u!4 &537269038
 Transform:
   m_ObjectHideFlags: 0
@@ -314,8 +316,10 @@ MonoBehaviour:
   Description: 
   NodesNTM:
   - {fileID: 1147067979}
+  IDTEXT: {fileID: 0}
   baseLineRenderer: {fileID: 583097975}
   line: []
+  Particalse: {fileID: 0}
 --- !u!4 &583097974
 Transform:
   m_ObjectHideFlags: 0
@@ -714,8 +718,10 @@ MonoBehaviour:
   NodesNTM:
   - {fileID: 583097973}
   - {fileID: 537269037}
+  IDTEXT: {fileID: 0}
   baseLineRenderer: {fileID: 1147067981}
   line: []
+  Particalse: {fileID: 0}
 --- !u!4 &1147067980
 Transform:
   m_ObjectHideFlags: 0
@@ -976,6 +982,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368666310842900366, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 1457439475430595360, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1059,6 +1077,50 @@ PrefabInstance:
     - target: {fileID: 4061011953049151380, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 239.55402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 29.99701
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 363
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630170420917890394, guid: e4ad4ca9ef9419b4188e82db47d91169, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 53
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

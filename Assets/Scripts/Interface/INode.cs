@@ -17,7 +17,7 @@ public class INode : MonoBehaviour
 
     public List<LineRenderer> line = new();
 
-
+    public ParticleSystem Particalse;
 
     // hey rosco when creating a node right next to monobehaviour put INode than write in the brackets public overide void Interface() and write you code
     /// <summary>
